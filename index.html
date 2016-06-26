@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Time Pills - Tražimo vokal!</title>
+<link rel="shortcut icon" href="favicon.ico"
+<meta name="keywords" content="time pills, kirfa, fakir, jagnjac, the root out, vokal, glas, pevanje, oglas, bend, vremenske pilule" />
+<meta name="description" content="Ćao, mi smo Time Pills i treba nam tvoj glas!" />
+<meta property="og:title" content="Time Pills - Trazimo vokal!"/>
+<meta property="og:description" content="Cao, mi smo Time Pills i treba nam tvoj glas! - https://www.facebook.com/timepills" />
+<meta property="og:url" content="http://timepills.com"/>
+<meta property="og:image" content="http://timepills.com/images/tp-avatar.png"/>
+<link rel="image_src" href="http://timepills.com/images/tp-avatar.png" />
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Time Pills"/>
+<style type="text/css">
+body {
+	background: #09170c url("images/bg-pattern.png") repeat;
+	margin: 0;
+	padding: 0;
+}
+.slice01 {
+	position: relative;
+	max-width: 1580px;
+	margin: 0 auto;
+	-webkit-animation-name: zoomin;
+	-webkit-animation-duration:2s;
+	-webkit-animation-timing-function: ease-out;
+	-moz-animation-name: zoomin;
+	-moz-animation-duration:2s;
+	-moz-animation-timing-function:ease-out;
+	
+}
+@-webkit-keyframes zoomin {
+0% { -webkit-transform: scale(4,0); opacity: 0; -webkit-filter: blur(30px);}
+100% { -webkit-transform: scale(1,1); opacity: 1; -webkit-filter: blur(0px); } 
+}
+@-moz-keyframes zoomin {
+0% { -moz-transform: scale(4,0); opacity: 0;}
+100% { -moz-transform: scale(1,1); opacity: 1; } 
+}
+
+.slice02 {
+	position: relative;
+	max-width: 1767px;
+	margin: 0 auto;
+}
+.slice03 {
+	position: relative;
+	max-width: 1478px;
+	max-height: 302px;
+	margin: 0 auto;
+}
+.slice02:hover, .slice03:hover {
+/*
+	-webkit-animation-name: yeah;
+	-webkit-animation-duration:1.5s;
+	-webkit-animation-iteration-count: infinite;
+*/
+}
+/*
+@-webkit-keyframes yeah {
+0% { -webkit-filter: hue-rotate(0deg); }
+100% { -webkit-filter: hue-rotate(360deg); }
+} 
+*/
+.slice01 img, .slice02 img, .slice03 img {
+	width: 100%;
+}
+
+
+.buttons, .share {
+	position: relative;
+	margin: 0 auto;
+	clear: both;
+}
+.download {
+	background: url("images/download-button.png") no-repeat center center;
+	width: 50%;
+	height: 375px;
+	background-size: contain;
+	float: left;
+}
+.download:hover {
+	background: url("images/download-button-hover.png") no-repeat center center;
+	background-size: contain;
+}
+.send {
+	background: url("images/send-button.png") no-repeat center center;
+	width: 50%;
+	height: 200px;
+	background-size: contain;
+	float: right;
+	margin: 65px 0 0 0;
+}
+.send:hover {
+	background: url("images/send-button-hover.png") no-repeat center center;
+	background-size: contain;
+}
+ 
+
+.send a {
+	display: block;
+	padding: 0 0 210px 0;
+}
+.download a {
+	display: block;
+	padding: 0 0 370px 0;
+}
+
+.like {
+	background: url("images/like-button.png") no-repeat 70% center;
+	width: 50%;
+	height: 131px;
+	background-size: contain;
+	float: left;
+	cursor: pointer;
+}
+.like:hover {
+	background: url("images/like-button-hover.png") no-repeat 70% center;
+	background-size: contain;
+}
+.like a {
+	display: block;
+	padding: 0 0 131px 0;
+}
+.tweet {
+	background: url("images/tweet-button.png") no-repeat 30% center;
+	width: 50%;
+	height: 134px;
+	background-size: contain;
+	float: right;
+	cursor: pointer;
+}
+.tweet:hover {
+	background: url("images/tweet-button-hover.png") no-repeat 30% center;
+	background-size: contain;
+}
+.tweet a {
+	display: block;
+	padding: 0 0 134px 0;
+}
+.tweet-button {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+.cleaner {
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+}
+
+.copyright {
+	background: url("images/copyright.png") no-repeat;
+	width: 223px;
+	height: 153px;
+	position: relative;
+	bottom: 0;
+	float: left;
+}
+.credit-rootout {
+	background: url("images/credit-rootout.png") no-repeat;
+	width: 94px;
+	height: 105px;
+	position: relative;
+	bottom: 0;
+	margin: 0 20px 0 0;
+	float: right;
+}
+.credit-rootout:hover {
+	background: url("images/credit-rootout-hover.png") no-repeat;
+}
+.credit-rootout a, .credit-nemanja a {
+	padding: 0 0 140px 0;
+	display: block;
+}
+.credit-nemanja {
+	background: url("images/credit-nemanja.png") no-repeat;
+	width: 48px;
+	height: 118px;
+	position: relative;
+	bottom: 0;
+	margin: 0 20px 0 0;
+	float: right;
+}
+.credit-nemanja:hover {
+	background: url("images/credit-nemanja-hover.png") no-repeat;
+}
+
+.preload1 {
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/download-button-hover.png");
+}
+.preload2 {
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/send-button-hover.png");
+}
+.preload3 {
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/like-button-hover.png");
+}
+.preload4 {
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/tweet-button-hover.png");
+}
+.preload5 {
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/credit-rootout-hover.png");
+}
+.preload6{
+	width: 0px;
+    height: 0px;
+    display: inline;
+	background: url("images/credit-nemanja-hover.png");
+}
+
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41057257-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+
+	<div class="slice01">
+		<img src="images/slice01.jpg" alt="Time Pills - splash!"/>
+	</div>
+	<div class="slice02">
+		<img src="images/slice02.png" alt="Time Pills - description"/>
+	</div>
+	<div class="buttons">
+		<div class="download">
+			<a href="http://www.timepills.com/tunez-for-vocal/time-pills-tunes-for-vocal.zip" target="_blank"></a>
+		</div>
+		<div class="send">
+			<a href="mailto:hellotimepills@gmail.com?subject=Time Pills Vocal" target="_blank"></a>
+		</div>
+	</div>
+	<div class="cleaner"></div>
+	<div class="share">
+		<div class="like">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=http://timepills.com" target="_blank"></a>
+		</div>
+		<div class="tweet">
+			<a href="https://twitter.com/intent/tweet?original_referer=&text=WOW!%20Superkool%20bend%20Time%20PIlls%20trazi%20vokal!&tw_p=tweetbutton&url=http%3A%2F%2Ftimepills.com&via=TimePills" target="_blank"></a>
+		</div>
+	</div>
+	<div class="cleaner"></div>
+	<div class="slice03">
+		<img src="images/slice03.png" alt="Time Pills - footer"/>
+	</div>
+	
+	<div class="credit-rootout" title="ju ken kol mi kirf">
+		<a href="http://www.therootout.com" target="_blank"></a>
+	</div>
+	<div class="credit-nemanja" title="maestro šić the man!">
+		<a href="http://www.nemanjapesic.com" target="_blank"></a>
+	</div>
+	<div class="copyright" title="©2013 Time Pills | Sva prava zadrzana."></div>
+	
+	<div class="preload1"></div>
+	<div class="preload2"></div>
+	<div class="preload3"></div>
+	<div class="preload4"></div>
+	<div class="preload5"></div>
+	<div class="preload6"></div>
+	
+	<div class="tweet-button">
+		<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://timepills.com" data-text="WOW! Superkool bend Time PIlls trazi vokal!" data-via="TimePills" data-count="none">Tweet</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	</div>
+	
+
+
+
+</body>
+</html>
